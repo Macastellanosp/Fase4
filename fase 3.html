@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+    <title>CSS GRID LAYOUT MAC</title>
+    <script src="prefix.js"></script>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <header>
+            <div class="logo">
+                <img src="logo.jpg" width="150" alt="">
+                <a href="#"> CSS GRID LAYOUT</a>
+            </div>
+
+            <nav>
+            <ul class="menu-aside ">
+                  <a href="#Inicio">Inicio</a>
+                  <a href="#Tema">Tema</a>
+                  <a href="audio.html">Audio</a>
+                  <a href="cuestionario.html"> Cuestionario</a>
+                  <a href="#Nosotros">Nosotros</a>
+                 
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <section ID="Inicio" class="main">
+            <article>
+                <h2 class="Tema">¿Que es CSS Grid Layout?</h2>
+
+                <p> Se puede utilizar para lograr muchos diseños diferentes. También se destaca por permitir dividir una página en áreas o regiones principales, 
+                    por definir la relación en términos de tamaño, posición y capas entre partes de un control 
+                    construido a partir de HTML primitivo.</p> 
+                
+            
+                <aside>
+                <p> • header - Define un encabezado de un documento o una sección </p>
+                <p> • nav - Define un conjunto de enlaces para navegación o menú </p>
+                <p> • section - Define una sección en un documento </p>
+                <p> • article - Usado para definir un contenido independiente </p>
+                <p> • aside - Usado para definir un contenido lateral o barra lateral </p>
+                <p> • footer - usado para definir un pie de página de un documento o sección </p>  
+                </aside>     
+            </article>
+
+            <article>
+                <h2 class="titulo">¿Cual es su funcion CSS Grid Layout?</h2>
+
+                <p> Permite un autor alinear elementos en columnas y filas. Sin embargo, con CSS grid son posibles muchos más diseños y de forma más sencilla 
+                    que con las tablas. Por ejemplo, los elementos secundarios de un contenedor de cuadrícula podrían posicionarse para que se solapen y se superpongan, 
+                    de forma similar a los elementos posicionados en CSS. </p>
+        
+                <aside>
+                <p> CSS Grid también permite utilizar una grilla con mucha versatilidad utilizando la propiedad grid-template-areas al contenedor principal, 
+                    esto permite usar una plantilla en la que asignamos grid-area a cada contenedor dentro de la grilla, 
+                    en la sección de HTML se observa que se ha agregado un "div"  con la clase “contenedor-principal”, en la sección de CSS se le asigna a la 
+                    propiedad gid-template-areas una plantilla de la grilla donde el nombre de cada área representa el espacio que ocupará en la pantalla </p>
+                </aside>
+            </article>
+        </section>
+
+        <aside>
+            <div>
+                <div id="Titulo"class="imagen"></div>
+                <img src="png-transparent-css-grid-layout-page-layout-cascading-style-sheets-css-flex-box-layout-layout-design-miscellaneous-angle-text.png" width="255" alt="50">
+        
+            </div>
+
+     
+            <div>
+                <div id="Titulo"class="imagen"></div>
+                <img src="css.jpg" width="255" alt="50">
+        
+            </div>
+        </aside>
+    
+    <hr>       
+        <section id="Audio" class="main">
+            <h3>Audio</h3>
+            
+       
+        </section>
+
+        <hr>       
+        
+        <section id="Cuestionario" class="main">
+            <h3>Cuestionario</h3>    
+                
+            
+       </section>
+
+        <footer>
+            <section  class="links">
+                <a>Nosotros<a>
+                
+                <a>Nombre: Maria Alexandra castellanos Parra</a>
+                <a>Correo: :macastellanosp@unadvirtual.edu.co</a>
+            
+            </section>
+
+            <div id="Nosotros" class="social">
+                <a href="#">Esta Pagina fue desarrollada por Maria Castellanos </a>
+                <a >08/04/2023 </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
